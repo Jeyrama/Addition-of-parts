@@ -27,7 +27,6 @@ Other Examples:
 // Solution
 
 function partsSums(ls) {
-
   let res = new Array(ls.length + 1);
   res[ls.length] = 0;
   
@@ -35,5 +34,6 @@ function partsSums(ls) {
     res[i] = res[i + 1] + ls[i];
   
   return res;
-  
 }
+
+// or
